@@ -1,7 +1,7 @@
 #define SensorLED   13
-//Connect LED with 330 ohm resistor to Arduino digital pin 13
+//Connect LED with 330 ohm resistor to Arduino digital pin 13. Cathode goes to ground rail or GND on  Arduino board
 //Connect the sensor to digital Pin 3 which is Interrupts 1.
-//to experimen drop the DFRobot sensor DFR0027 a couple of inches to turn on the LED
+//to experiment drop the DFRobot sensor DFR0027 a couple of inches to turn on the LED
 //if you do not have an external LED, the Arduino onboard LED will  turn on
 // Sketch introduces interupt  function
 #define SensorINPUT  3
